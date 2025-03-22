@@ -1,0 +1,12 @@
+federation_version: =2.7.0
+subgraphs:
+  # products:
+  #   routing_url: http://localhost:4000
+  #   schema:
+  #     subgraph_url: ./products.graphql # Schema provided via file
+  products:
+    schema:
+      subgraph_url: http://localhost:4001
+  users:
+    schema:
+      subgraph_url: http://localhost:4002
