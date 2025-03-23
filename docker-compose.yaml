@@ -12,6 +12,12 @@ services:
     ports:
       - "4002:4000"
 
+  review:
+    container_name: review
+    build: ./services/reviews-ws
+    ports:
+      - "4003:4000"
+
   # router:
   #   platform: linux/amd64
   #   environment:
